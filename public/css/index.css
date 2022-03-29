@@ -1,0 +1,90 @@
+#image{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+#imagesale{
+    height: 150px;
+    width: 46%;
+}
+h4{
+    margin-left: 2% !important;
+    color: dodgerblue !important;
+}
+.thumbnails{
+    margin-left: 4% !important;
+}
+.checked {
+    color: orange;
+  }
+.well{
+    margin-top: 5%;
+    font-size: 20px !important;
+}
+#btn{
+    width: 50%;
+    font-size: 18px;
+}
+#name{
+    font-size: 20px;
+}
+.rating{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#imgbox{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+#box-infor{
+    border: 3px solid gainsboro;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#infor{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body {
+    /* padding-top: 50px; */
+  }
+
+  .thumbnail {
+      position:relative;
+      overflow:hidden;
+  }
+  .caption01 {
+      position:absolute;
+      top:-100%;
+      right:0;
+      background: #AEF7;
+      width:100%;
+      height:100%;
+      padding:2%;
+      font-weight: bold;
+      font-size: 20px;
+      text-align:center;
+      color:rgb(33, 62, 190) !important;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in;
+  }
+  .thumbnail:hover .caption01 {
+      top:0%;
+
+  }
+#image1{
+    background-image: url(https://hocluat.vn/online/wp-content/uploads/2018/05/giao-trinh.jpg);
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+    z-index: 10000000000 !important;
+}
+#title{
+    margin-top: 50px !important;
+}

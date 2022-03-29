@@ -1,0 +1,73 @@
+#CategoryContainer {
+    margin-top: 100px;
+}
+
+#DisplayCategory #titleBox {
+    background-color: #115353;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 0px;
+    top: 50%;
+}
+
+#titleBox span {
+    position: relative;
+    top: 15%;
+}
+
+#btnAddCategory {
+    padding: 5px 5px;
+    float: right;
+    right: 0%;
+}
+#dataBox {
+    padding: 0;
+}
+.showInfo {
+    cursor: pointer;
+}
+#DisplayCategory th,
+#DisplayCategory td {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#FormAddCategory #titleBox span{
+    color: #000000;
+    font-size: 18px;
+}
+#FormAddCategory label {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#FormAddCategory input[type="text"], #FormAddCategory textarea {
+    width: 100%;
+}
+
+#FormAddCategory button {
+    width: 100%;
+}
+
+
+
+#CategoryInfomation ul{
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+}
+#CategoryInfomation label {
+    width: 60%;
+    font-size: 16px;
+    padding: 0;
+    
+    font-weight: 700;
+}
+
+#action button {
+    width: 100%;
+    margin-top: 10px;
+}

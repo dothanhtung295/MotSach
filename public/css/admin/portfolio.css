@@ -1,0 +1,82 @@
+#PortfolioContainer {
+    margin-top: 100px;
+}
+
+/* #PortfolioContainer #FunctionPortfolio {
+    background-color: #ffcc5f;
+} */
+
+#DisplayPortfolio #titleBox {
+    background-color: #115353;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 0px;
+    top: 50%;
+}
+
+#titleBox span {
+    position: relative;
+    top: 15%;
+}
+
+#btnAddPortfolio {
+    padding: 5px 5px;
+    float: right;
+    right: 0%;
+}
+
+#dataBox {
+    padding: 0;
+}
+#DisplayPortfolio th,
+#DisplayPortfolio td {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+/* css form thêm danh mục */
+#FormAddPortfolio {
+    position: relative;
+    margin: auto auto auto auto;
+}
+.showInfo {
+    cursor: pointer;
+}
+#FormAddPortfolio #titleBox span{
+    color: #000000;
+    font-size: 18px;
+}
+#FormAddPortfolio label {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#FormAddPortfolio input[type="text"], #FormAddPortfolio textarea {
+    width: 100%;
+}
+
+#FormAddPortfolio button {
+    width: 100%;
+}
+
+
+
+#portfolioInfomation ul{
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+}
+#portfolioInfomation label {
+    width: 60%;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 700;
+}
+
+#action button {
+    width: 100%;
+    margin-top: 10px;
+}
